@@ -130,21 +130,43 @@ a {
     color: #fff;
 }
 
+.container-title {
+    width: 1440px;
+    height: 600px;
+}
+
+.main-title {
+    padding-top: 188px;
+    padding-left: 457px;
+    padding-right: 457px;
+    margin-bottom: 40px;
+}
+
+
 .section-button,
 .page-footer
 {
     background-color: #2e2f42;
 }
 
-button {
+.btn {
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    margin-right: auto;
+    margin-left: auto;
     cursor: pointer;
+    border: none;
+    min-width: 169px;
 }
+
+
 
 .title-benefits,
 .name,
@@ -163,6 +185,15 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.container-benefits {
+    
+}
+
+.benefits {
+    padding-top: 120px;
+    padding-left: 156px;
 }
 
 .team {
