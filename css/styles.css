@@ -200,6 +200,7 @@ button {
     clip-path: inset(100%);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .benefits-item {
@@ -214,10 +215,10 @@ button {
 }
 
 .benefits {
-    flex-basis: calc((100% - 72px) / 4);
+    
 }
 .title-benefits {
-    margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
