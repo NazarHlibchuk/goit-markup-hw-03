@@ -217,7 +217,7 @@ button {
 .benefits {
     
 }
-.title-benefits {
+.benefits-one {
     flex-basis: calc((100% - 72px) / 4);
 }
 
