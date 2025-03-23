@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6, p {
 a {
     text-decoration: none;
 }
+
+img {
+    display: block;
+}
 /*common*/
 
 .container {
@@ -128,6 +132,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    padding-top: 188px;
+    text-align: center;
 }
 
 .container-title {
@@ -135,11 +144,8 @@ a {
     height: 600px;
 }
 
-.main-title {
-    padding-top: 188px;
-    padding-left: 457px;
-    padding-right: 457px;
-    margin-bottom: 40px;
+.section-button {
+    padding: 120px 0;
 }
 
 
@@ -149,7 +155,7 @@ a {
     background-color: #2e2f42;
 }
 
-.btn {
+button {
     display: block;
     border-radius: 4px;
     padding: 16px 32px;
@@ -222,6 +228,18 @@ a {
     color: #f4f4fd;
 }
 
+.page-footer {
+    padding: 100px 0;
+    width: 1440px;
+        height: 312px;
+}
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    
+}
 
-
+.container-footer {
+    padding: 100px 1020px 100px 156px;
+}
