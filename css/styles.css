@@ -247,12 +247,6 @@ button {
     color: #f4f4fd;
 }
 
-.page-footer {
-    padding: 100px 0;
-    width: 1440px;
-        height: 312px;
-}
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -261,4 +255,6 @@ button {
 
 .container-footer {
     padding: 100px 1020px 100px 156px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
