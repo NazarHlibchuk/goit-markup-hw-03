@@ -253,8 +253,13 @@ button {
     
 }
 
+.page-footer {
+    padding: 100px 0;
+}
+
 .container-footer {
     padding: 100px 1020px 100px 156px;
     max-width: 1440px;
     margin: 0 auto;
 }
+
