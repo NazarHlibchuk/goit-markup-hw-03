@@ -134,7 +134,7 @@ img {
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     text-align: center;
 }
 
@@ -204,8 +204,6 @@ button {
 }
 
 .benefits-item {
-    max-width: 1128px;
-    margin: 0 auto;
     padding: 120px 0;
 }
 
@@ -234,23 +232,16 @@ button {
 }
 .foto {
     background-color: #FFFFFF;
-    flex-basis: calc((100%-72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    width: 264px;
-    height: 380px;
 }
 
 .container-team {
-    border-radius: 0 0 4px 4px;
     padding: 32px 0;
-    width: 264px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
 }
 
 .name {
     text-align: center;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -261,7 +252,6 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 .team-list {
@@ -315,6 +305,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .footer-logo {
@@ -327,9 +318,5 @@ button {
     padding: 100px 0;
 }
 
-.container-footer {
-    padding: 100px 1020px 100px 156px;
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
