@@ -211,7 +211,10 @@ button {
 
 .benefits-list {
     display: flex;
-    gap: 24px;
+    gap: 24px;  
+}
+
+.title-benefits {
     margin-bottom: 8px;
 }
 
@@ -246,12 +249,7 @@ button {
 }
 
 .name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
     padding-top: 32px;
     margin-bottom: 8px;
 }
