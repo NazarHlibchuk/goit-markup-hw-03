@@ -212,11 +212,12 @@ button {
 .benefits-list {
     display: flex;
     gap: 24px;
+    margin-bottom: 8px;
 }
 
 .item-list {
     flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
+    
 }
 
 
