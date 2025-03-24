@@ -214,8 +214,11 @@ button {
     gap: 24px;
 }
 
-.benefits {
+.item-list {
     flex-basis: calc((100% - 72px) / 4);
+}
+
+.title-benefits {
     margin-bottom: 8px;
 }
 
