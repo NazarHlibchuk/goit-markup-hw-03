@@ -216,9 +216,6 @@ button {
 
 .item-list {
     flex-basis: calc((100% - 72px) / 4);
-}
-
-.title-h {
     margin-bottom: 8px;
 }
 
